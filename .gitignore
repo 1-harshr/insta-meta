@@ -1,0 +1,20 @@
+# OS / editors
+.DS_Store
+
+# Secrets
+.env
+.env.*
+
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+
+# Pipeline outputs (regenerable; contain downloaded third-party reels)
+spike/runs/
+
+# Reel media copied into eval cases — keep only input.json, expected.json, sheet.jpg
+spike/eval/cases/*/video.mp4
+
+# Test-reel intermediates (regenerable)
+spike/test/speech.aiff

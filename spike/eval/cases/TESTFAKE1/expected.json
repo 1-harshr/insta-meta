@@ -1,0 +1,10 @@
+{
+  "whatHappened": "Synthetic test: truck hit a motorbike at Redma Chowk, Daltonganj; motorbike rider injured and referred to Sadar Hospital; police investigating.",
+  "isNews": true,
+  "isAboutCity": true,
+  "eventType": ["accident"],
+  "place": ["Redma Chowk", "Redima Chowk"],
+  "people": [],
+  "mustMention": [["truck"], ["motorbike", "motorcycle", "bike"], ["Sadar Hospital"], ["injur"]],
+  "mustNotMention": ["Sardar", "bicycle", "died", "death", "killed"]
+}

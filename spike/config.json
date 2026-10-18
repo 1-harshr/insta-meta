@@ -1,0 +1,14 @@
+{
+  "city": "Daltonganj",
+  "aliases": ["Daltonganj", "Medininagar", "Palamu", "डाल्टनगंज", "मेदिनीनगर", "पलामू"],
+  "language": "Hinglish",
+  "models": {
+    "understand": "ollama:qwen3.8:27b",
+    "ocr": "ollama:qwen3.8:27b",
+    "script": "ollama:qwen3.8:27b",
+    "embed": "ollama:bge-m3"
+  },
+  "whisperModel": "mlx-community/whisper-large-v3-turbo",
+  "clusterThreshold": 0.8,
+  "maxStories": 8
+}

@@ -1,0 +1,11 @@
+[project]
+name = "spike-py"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "imagehash>=4.3.2",
+    "mlx-whisper>=0.4.3",
+    "pillow>=13.0.0",
+]
